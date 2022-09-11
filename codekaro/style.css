@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.nav{
+    padding: 0px 8rem 0rem 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.nav p{
+    font-weight: 700;
+    padding: 20px;
+    font-size: 20px;
+    padding-right: 2rem;
+}
+.left ol, .left ol li a {
+    color: black;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.btn1 a{
+    padding: 10px;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.btn2 input[type="button"]{
+    font-size: 16px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius:5px ;
+    outline: none;
+    width: 130px;
+}
+.btn2 input[type="button"]:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#menu-btn{
+    font-size: 24px;
+    cursor: pointer;
+    padding: 20px;
+    display: none;
+}
+
+
+.home{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.home-head p{
+    font-size: 60px;
+    align-self: center;
+    font-weight:lighter;
+    text-align:center;
+}
+.home-content{
+    align-self: center;
+}
+.home-content p{
+    font-weight: lighter;
+    opacity: .6;
+    font-size: 20px;
+    padding: 10px;
+}
+.button{
+    display: flex;
+    align-self: center;
+}
+.left-btn input[type="button"]{
+    background-color: black;
+    color: white;
+    padding:15px ;
+    margin: 10px;
+    width: 15rem;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.left-btn input[type="button"]:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.right-btn input[type="button"]{
+    background-color: white;
+    color: black;
+    padding:15px ;
+    margin: 10px;
+    width: 15rem;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.right-btn input[type="button"]:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.classes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height:100vh;
+}
+.classes-head p{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+.classes-content p{
+    font-size: 20px;
+    text-align: center;
+    opacity: .7;
+    padding:10px;
+    font-weight: small;
+}
+
+.schedule-one{
+    width: 140%;
+    box-shadow:2px 3px 4px  rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    margin: 0px 15px 10px 20px ;
+    overflow: hidden;
+}
+.one-content p:nth-child(odd){
+    font-size: 26px;
+    padding: 10px 10px 0px 15px;
+}
+.one-content p:nth-child(even){
+    font-size: 16px;
+    padding: 10px 10px 0px 15px;
+    opacity: .6;
+}
+.schedule-btn{
+    padding: 10px;
+}
+.schedule-btn input[type="button"]:nth-child(1){
+    background-color: pink;
+    color:royalblue;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.schedule-btn input[type="button"]:nth-child(2){
+    background-color: lightskyblue;
+    color:darkred;
+    width: 70px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.schedule-two{
+    width: 140%;
+    box-shadow:2px 3px 4px  rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    margin: 0px 15px 10px 20px ;
+    overflow: hidden;
+}
+.schedule-two img{
+    object-fit: cover;
+}
+.class-schedule{
+    display: flex;
+    padding: 30px;
+    margin: 30px;
+}
+
+.trainer{
+    width: 100%;
+    height: 100vh;
+}
+
+.train-first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.train-head{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+.train-content{
+    font-size: 20px;
+    text-align: center;
+    opacity: .7;
+    padding:10px;
+    font-weight: small;
+}
+.box{
+    width: 270px;
+    height: auto;
+    border: 2px solid pink;
+}
+.trainers-content{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.first-con, .secound-con, .third-con{
+    font-size: 20px;
+    padding: 10px;
+}
+.train-flex{
+    display: flex;
+}
+.trainer-name{
+    padding: 20px;
+    margin: 20px 20px 20px 0px;
+}
+.trainer-name p:nth-child(odd){
+    font-size: 18px;
+}
+.train-img{
+    border-radius: 50px;
+}
+.trainer-name p:nth-child(even){
+    opacity: .7;
+}
+.community{
+    width: 100%;
+    height: 50vh;
+}
+.community-head{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.community-head p:nth-child(1){
+    font-size: 44px;
+    padding: 10px;
+}
+.community-head p:nth-child(2){
+    font-size: 18px;
+    opacity: .5;
+    padding: 10px;
+}
+.community-head p:nth-child(3){
+    opacity: .5;
+    padding: 10px;
+    font-size: 18px;
+}
+.community-head button{
+    width: 150px;
+    font-size: 15px;
+    padding: 12px;
+    margin: 20px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.community-img{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+}
+.footer-head{
+    font-size: 45px;
+    font-weight: bold;
+    padding: 30px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+.footer-content{
+    padding: 15px;
+    margin-top: 10%;
+}
+
+
+/* Media Query */
+
+@media (max-width:889px){
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    #menu-btn{
+        display: initial;
+    }
+    .right{
+        display: none;
+    }
+    .left{
+        position: absolute;
+        top: 110%;
+        display: block;
+        right: 20px;
+        box-shadow: 3px 3px 1px rgba(0,0,0,.2);
+        width: 250px;
+        color: white;
+        background: black;
+        border: 1px solid pink;
+        border-radius: 8px;
+        transform: scale(0);
+        transform-origin: top right;
+        transition: none;
+        opacity: 0;
+    }
+    .left.active{
+        transform: scale(1);
+        opacity: 1;
+        transition: .2s ease-out;
+    }
+    .left ol{
+        font-size: 15px;
+        display: block ;
+        margin: 2.5em;
+    }
+    .left ol li{
+        padding: 15px;
+    }
+
+}
